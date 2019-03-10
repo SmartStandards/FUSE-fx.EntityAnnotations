@@ -1,0 +1,9 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/EntityAnnotations/.vs
+/EntityAnnotations/EntityAnnotations/bin
+/EntityAnnotations/EntityAnnotations/obj
+/EntityAnnotations/Tester/bin
+/EntityAnnotations/Tester/obj
