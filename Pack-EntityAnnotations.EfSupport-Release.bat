@@ -1,0 +1,1 @@
+nuget pack ./EntityAnnotationsEfSupport.nuspec -Build -Symbols -OutputDirectory "..\..\(NuGetRepo)" -InstallPackageToOutputPath

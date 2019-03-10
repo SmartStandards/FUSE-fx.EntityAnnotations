@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{BF125B98-B316-48CE-BF2C-C55709480286}</ProjectGuid>
+    <ProjectGuid>{1A0A4FC4-0713-47B2-96C8-16C1CDAF69F6}</ProjectGuid>
     <OutputType>Library</OutputType>
     <RootNamespace>EntityAnnotations</RootNamespace>
-    <AssemblyName>EntityAnnotations</AssemblyName>
+    <AssemblyName>EntityAnnotations.EfSupport</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <MyType>Windows</MyType>
     <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
@@ -18,7 +18,7 @@
     <DefineDebug>true</DefineDebug>
     <DefineTrace>true</DefineTrace>
     <OutputPath>bin\Debug\</OutputPath>
-    <DocumentationFile>EntityAnnotations.xml</DocumentationFile>
+    <DocumentationFile>EntityAnnotations.EfSupport.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
@@ -27,7 +27,7 @@
     <DefineTrace>true</DefineTrace>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
-    <DocumentationFile>EntityAnnotations.xml</DocumentationFile>
+    <DocumentationFile>EntityAnnotations.EfSupport.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup>
@@ -52,11 +52,19 @@
     <Reference Include="System.Net.Http" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Attributes.vb" />
-    <Compile Include="Utils\EdmxTranspiler.vb" />
-    <Compile Include="Utils\EntityCodeGenerator.vb" />
-    <Compile Include="Utils\ModelDefinitionExtractor.vb" />
-    <Compile Include="Extensions.vb" />
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="EfMappingCodeGenerator.vb" />
+    <Compile Include="EfMappingConfigurator.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -91,12 +99,6 @@
       <CustomToolNamespace>My</CustomToolNamespace>
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="TODO.txt" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="ModelDom\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

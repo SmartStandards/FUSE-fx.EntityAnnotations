@@ -8,7 +8,7 @@ Imports System.Runtime.InteropServices
 
 ' Review the values of the assembly attributes
 
-<Assembly: AssemblyTitle("EntityAnnotations")> 
+<Assembly: AssemblyTitle("EntityAnnotations.EfSupport")> 
 <Assembly: AssemblyDescription("")>
 <Assembly: AssemblyCompany("KornSW")>
 <Assembly: AssemblyProduct("EntityAnnotations")>
@@ -18,7 +18,7 @@ Imports System.Runtime.InteropServices
 <Assembly: ComVisible(False)>
 
 'The following GUID is for the ID of the typelib if this project is exposed to COM
-<Assembly: Guid("57694534-6d64-4642-8301-99eab9d556cb")>
+<Assembly: Guid("1398aeac-acbe-4b25-a9a0-ff9ddd6a8bf0")> 
 
 ' Version information for an assembly consists of the following four values:
 '
@@ -31,5 +31,5 @@ Imports System.Runtime.InteropServices
 ' by using the '*' as shown below:
 ' <Assembly: AssemblyVersion("1.0.*")> 
 
-<Assembly: AssemblyVersion("1.0.1.0")>
-<Assembly: AssemblyFileVersion("1.0.1.0")>
+<Assembly: AssemblyVersion("1.0.0.0")> 
+<Assembly: AssemblyFileVersion("1.0.0.0")> 
