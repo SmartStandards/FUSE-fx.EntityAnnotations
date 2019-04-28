@@ -2,13 +2,14 @@
 <package >
   <metadata>
     <id>EntityAnnotations</id>
-    <version>1.0.0</version>
+    <version>1.0.2</version>
     <title>EntityAnnotations</title>
     <authors>KornSW</authors>
     <owners>KornSW</owners>
     <!-- https://spdx.org/licenses/ -->
     <license type="expression">GPL-3.0-only</license>
     <projectUrl>https://github.com/KornSW/EntityAnnotations</projectUrl>
+    <iconUrl>https://github.com/KornSW/EntityAnnotations/blob/master/PackageIcon.png?raw=true</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>EntityAnnotations</description>
     <releaseNotes></releaseNotes>

@@ -9,6 +9,7 @@
     <!-- https://spdx.org/licenses/ -->
     <license type="expression">GPL-3.0-only</license>
     <projectUrl>https://github.com/KornSW/EntityAnnotations</projectUrl>
+    <iconUrl>https://github.com/KornSW/EntityAnnotations/blob/master/PackageIcon.png?raw=true</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>EntityAnnotations</description>
     <releaseNotes></releaseNotes>
