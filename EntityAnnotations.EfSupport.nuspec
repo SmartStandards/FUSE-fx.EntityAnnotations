@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>EntityAnnotations.EfSupport</id>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <title>EntityAnnotations (Support for EntityFramework)</title>
     <authors>KornSW</authors>
     <owners>KornSW</owners>
@@ -18,8 +18,8 @@
   </metadata>
   <files>
     <!-- https://docs.microsoft.com/en-us/nuget/create-packages/creating-a-package#from-a-convention-based-working-directory -->
-    <file src="EntityAnnotations\EntityAnnotationsEfSupport\bin\Release\EntityAnnotationsEfSupport.dll" target="lib/{tfm}" />
-    <file src="EntityAnnotations\EntityAnnotationsEfSupport\bin\Release\EntityAnnotationsEfSupport.xml" target="lib/{tfm}" />
-    <file src="EntityAnnotations\EntityAnnotationsEfSupport\bin\Release\EntityAnnotationsEfSupport.pdb" target="lib/{tfm}" />
+    <file src="EntityAnnotations\EntityAnnotations.EfSupport\bin\Release\EntityAnnotations.EfSupport.dll" target="lib/{tfm}" />
+    <file src="EntityAnnotations\EntityAnnotations.EfSupport\bin\Release\EntityAnnotations.EfSupport.xml" target="lib/{tfm}" />
+    <file src="EntityAnnotations\EntityAnnotations.EfSupport\bin\Release\EntityAnnotations.EfSupport.pdb" target="lib/{tfm}" />
   </files>
 </package>

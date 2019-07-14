@@ -1,1 +1,2 @@
-nuget pack ./EntityAnnotations.nuspec -Build -Symbols -OutputDirectory "..\..\(NuGetRepo)" -InstallPackageToOutputPath
+nuget pack ./EntityAnnotations.nuspec -Build -Symbols -OutputDirectory "..\(NuGetRepo)" -InstallPackageToOutputPath
+PAUSE
