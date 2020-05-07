@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>EntityAnnotations</id>
-    <version>1.0.3</version>
+    <version>1.0.3-localbuild</version>
     <title>EntityAnnotations</title>
     <authors>KornSW</authors>
     <owners>KornSW</owners>
@@ -18,8 +18,8 @@
   </metadata>
   <files>
     <!-- https://docs.microsoft.com/en-us/nuget/create-packages/creating-a-package#from-a-convention-based-working-directory -->
-    <file src="EntityAnnotations\EntityAnnotations\bin\Release\EntityAnnotations.dll" target="lib/{tfm}" />
-    <file src="EntityAnnotations\EntityAnnotations\bin\Release\EntityAnnotations.xml" target="lib/{tfm}" />
-    <file src="EntityAnnotations\EntityAnnotations\bin\Release\EntityAnnotations.pdb" target="lib/{tfm}" />
+    <file src="(Stage)\Bin\EntityAnnotations.dll" target="lib/{tfm}" />
+    <file src="(Stage)\Bin\EntityAnnotations.xml" target="lib/{tfm}" />
+    <file src="(Stage)\Bin\EntityAnnotations.pdb" target="lib/{tfm}" />
   </files>
 </package>
