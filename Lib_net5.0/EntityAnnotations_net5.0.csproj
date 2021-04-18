@@ -29,7 +29,7 @@
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
     <OutputPath>..\(Stage)\Bin\net5.0\</OutputPath>
-    <DocumentationFile>..\(Stage)\Bin\net5.0\MultiTargetDemoLib.xml</DocumentationFile>
+    <DocumentationFile>..\(Stage)\Bin\net5.0\EntityAnnotations.xml</DocumentationFile>
     <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
     <NoWarn>1701;1702;1591</NoWarn>
     <DefineConstants>TRACE;NET5</DefineConstants>
