@@ -1,0 +1,40 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <AssemblyName>EntityAnnotations</AssemblyName>
+    <RootNamespace>EntityAnnotations</RootNamespace>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+  </PropertyGroup>
+  
+  <PropertyGroup>
+    <PackageId>EntityAnnotations</PackageId>
+    <Description>EntityAnnotations</Description>
+    <Product>EntityAnnotations</Product>
+    <Company>KornSW</Company>
+    <Copyright>KornSW</Copyright>
+    <Version>2.0.0</Version>
+    <AssemblyVersion>2.0.0.0</AssemblyVersion>
+    <Authors>KornSW</Authors>
+    <FileVersion>2.0.0.0</FileVersion>
+  </PropertyGroup>
+  
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>..\(Stage)\Bin\net5.0\EntityAnnotations.xml</DocumentationFile>
+    <OutputPath>..\(Stage)\Bin\net5.0\</OutputPath>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <NoWarn>1701;1702;1591</NoWarn>
+    <DefineConstants>TRACE;DEBUG;NET5</DefineConstants>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <OutputPath>..\(Stage)\Bin\net5.0\</OutputPath>
+    <DocumentationFile>..\(Stage)\Bin\net5.0\MultiTargetDemoLib.xml</DocumentationFile>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <NoWarn>1701;1702;1591</NoWarn>
+    <DefineConstants>TRACE;NET5</DefineConstants>
+  </PropertyGroup>
+
+  <Import Project="..\Lib\EntityAnnotations.projitems" Label="Shared" />
+
+</Project>
