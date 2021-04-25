@@ -5,7 +5,7 @@ using System.Linq;
 using System.Reflection;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace MultiTargetDemoLib {
+namespace System.ComponentModel.DataAnnotations {
 
   [TestClass]
   public class ModelRelationExtensionsTests {
