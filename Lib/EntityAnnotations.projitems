@@ -11,6 +11,7 @@
   <ItemGroup>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)ContentAttribute.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)RefererAttribute.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)DependentAttribute.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)LookupAttribute.cs" />

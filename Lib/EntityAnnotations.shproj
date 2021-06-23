@@ -9,6 +9,7 @@
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\CodeSharing\Microsoft.CodeSharing.Common.props" />
   <PropertyGroup />
   <ItemGroup>
+    <Compile Include="ContentAttribute.cs" />
     <Compile Include="DependentAttribute.cs" />
     <Compile Include="FixedAfterCreationAttribute.cs" />
     <Compile Include="LookupAttribute.cs" />
