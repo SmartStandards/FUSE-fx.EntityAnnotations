@@ -17,7 +17,9 @@
     <Compile Include="$(MSBuildThisFileDirectory)LookupAttribute.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)SystemInternalAttribute.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)FixedAfterCreationAttribute.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)PrimaryIdentityAttribute.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)PrincipalAttribute.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)PropertyGroupAttribute.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ModelRelationExtensions.cs" />
   </ItemGroup>
 </Project>

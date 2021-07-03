@@ -14,7 +14,9 @@
     <Compile Include="FixedAfterCreationAttribute.cs" />
     <Compile Include="LookupAttribute.cs" />
     <Compile Include="ModelRelationExtensions.cs" />
+    <Compile Include="PrimaryIdentityAttribute.cs" />
     <Compile Include="PrincipalAttribute.cs" />
+    <Compile Include="PropertyGroupAttribute.cs" />
     <Compile Include="RefererAttribute.cs" />
     <Compile Include="SystemInternalAttribute.cs" />
   </ItemGroup>
