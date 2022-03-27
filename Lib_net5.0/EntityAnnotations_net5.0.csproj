@@ -13,10 +13,10 @@
     <Product>EntityAnnotations</Product>
     <Company>KornSW</Company>
     <Copyright>KornSW</Copyright>
-    <Version>2.2.0</Version>
-    <AssemblyVersion>2.2.0.0</AssemblyVersion>
+    <Version>2.4.0</Version>
+    <AssemblyVersion>2.4.0.0</AssemblyVersion>
     <Authors>KornSW</Authors>
-    <FileVersion>2.2.0.0</FileVersion>
+    <FileVersion>2.4.0.0</FileVersion>
   </PropertyGroup>
   
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
