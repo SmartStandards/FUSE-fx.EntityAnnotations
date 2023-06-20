@@ -1,0 +1,13 @@
+{
+  "currentVersion": "3.0.0",
+  "currentVersionWithSuffix": "3.0.0",
+  "releaseType": "official",
+  "previousVersion": "2.4.0",
+  "changeGrade": "major",
+  "currentMajor": 3,
+  "currentMinor": 0,
+  "currentPatch": 0,
+  "versionDateInfo": "2023-06-20",
+  "versionTimeInfo": "11:29:42",
+  "versionNotes": "- breaking Change: renamed from 'EntityAnnotations' to 'FUSE-fx.EntityAnnotations'\n- added auto-Versioning\n- reorganized project structure\n"
+}

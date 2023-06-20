@@ -11,9 +11,15 @@ This files contains a version history including all changes relevant for semanti
 
 ## Upcoming Changes
 
-- **breaking Change**: renamed from 'EntityAnnotations' to 'FUSE-fx.EntityAnnotations'
-- reorganized project structure
-- added auto-Versioning
+*(none)*
+
+
+
+## v 3.0.0
+released **2023-06-20**, including:
+ - **breaking Change**: renamed from 'EntityAnnotations' to 'FUSE-fx.EntityAnnotations'
+ - added auto-Versioning
+ - reorganized project structure
 
 
 
