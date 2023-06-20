@@ -245,3 +245,5 @@ ModelManifest.xml
 .fake/
 
 /(Vendor)/NuGet/
+/dotnet/dist
+/dotnet/vendor/nuget
