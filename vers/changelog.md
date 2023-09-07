@@ -11,7 +11,13 @@ This files contains a version history including all changes relevant for semanti
 
 ## Upcoming Changes
 
-* (**new Feature**): added new Attribute **'Referrer'** in correct spelling
+*(none)*
+
+
+
+## v 3.1.0
+released **2023-09-07**, including:
+ - (**new Feature**): added new Attribute **'Referrer'** in correct spelling
 
 
 

@@ -1,13 +1,13 @@
 {
-  "currentVersion": "3.0.0",
-  "currentVersionWithSuffix": "3.0.0",
+  "currentVersion": "3.1.0",
+  "currentVersionWithSuffix": "3.1.0",
   "releaseType": "official",
-  "previousVersion": "2.4.0",
-  "changeGrade": "major",
+  "previousVersion": "3.0.0",
+  "changeGrade": "minor",
   "currentMajor": 3,
-  "currentMinor": 0,
+  "currentMinor": 1,
   "currentPatch": 0,
-  "versionDateInfo": "2023-06-20",
-  "versionTimeInfo": "11:29:42",
-  "versionNotes": "- breaking Change: renamed from 'EntityAnnotations' to 'FUSE-fx.EntityAnnotations'\n- added auto-Versioning\n- reorganized project structure\n"
+  "versionDateInfo": "2023-09-07",
+  "versionTimeInfo": "08:02:45",
+  "versionNotes": "- (new Feature): added new Attribute **'Referrer'** in correct spelling\n"
 }
