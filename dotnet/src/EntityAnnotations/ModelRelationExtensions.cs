@@ -13,14 +13,14 @@ namespace System.ComponentModel.DataAnnotations {
     /// <param name="includePrincipals"></param>
     /// <param name="includeLookups"></param>
     /// <param name="includeDependents"></param>
-    /// <param name="includeReferers"></param>
+    /// <param name="includeReferrers"></param>
     /// <returns></returns>
     public static Dictionary<PropertyInfo, Type> GetNavigations(
       this Type extendee,
       bool includePrincipals,
       bool includeLookups,
       bool includeDependents,
-      bool includeReferers
+      bool includeReferrers
     ) {
 
       Dictionary<PropertyInfo, Type> result = new Dictionary<PropertyInfo, Type>();
@@ -36,7 +36,7 @@ namespace System.ComponentModel.DataAnnotations {
           if (includeDependents && attr.GetType() == typeof(DependentAttribute)) {
             result[prop] = prop.PropertyType;
           }
-          if (includeReferers && attr.GetType() == typeof(RefererAttribute)) {
+          if (includeReferrers && (attr.GetType() == typeof(ReferrerAttribute)|| attr.GetType() == typeof(RefererAttribute))) {
             result[prop] = prop.PropertyType;
           }
         }

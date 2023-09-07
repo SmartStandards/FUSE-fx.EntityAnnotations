@@ -8,7 +8,7 @@
     <owners>SmartStandards</owners>
     <copyright>SmartStandards</copyright>
     <description>provides attributes for navigation-properties which are used to qualify the relation as PRINCIPAL or LOOKUP</description>
-    <tags>EntityAnnotations Principal Dependent Lookup Referer RML refurbishedmodelinglanguage</tags>
+    <tags>EntityAnnotations Principal Dependent Lookup Referrer RML refurbishedmodelinglanguage</tags>
     <!-- https://spdx.org/licenses/ -->
     <license type="expression">GPL-3.0-only</license>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

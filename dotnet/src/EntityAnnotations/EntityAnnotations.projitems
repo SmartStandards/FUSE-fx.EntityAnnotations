@@ -17,6 +17,7 @@
     <Compile Include="$(MSBuildThisFileDirectory)PrimaryIdentityAttribute.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)PrincipalAttribute.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)PropertyGroupAttribute.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ReferrerAttribute.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)RefererAttribute.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)SystemInternalAttribute.cs" />
   </ItemGroup>
