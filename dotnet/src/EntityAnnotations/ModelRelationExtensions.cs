@@ -36,7 +36,7 @@ namespace System.ComponentModel.DataAnnotations {
           if (includeDependents && attr.GetType() == typeof(DependentAttribute)) {
             result[prop] = prop.PropertyType;
           }
-          if (includeReferrers && (attr.GetType() == typeof(ReferrerAttribute)|| attr.GetType() == typeof(RefererAttribute))) {
+          if (includeReferrers && (attr.GetType() == typeof(ReferrerAttribute))) {
             result[prop] = prop.PropertyType;
           }
         }

@@ -11,7 +11,7 @@ This files contains a version history including all changes relevant for semanti
 
 ## Upcoming Changes
 
-*(none)*
+* wrong spelled **'Referer'** Attribute is now unusable (Obsolete w. error=true) (**breaking Change**)
 
 
 

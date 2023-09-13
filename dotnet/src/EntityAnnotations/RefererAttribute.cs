@@ -8,7 +8,7 @@ namespace System.ComponentModel.DataAnnotations {
   /// (from 'FUSE-fx.EntityAnnotations')
   /// </summary>
   [AttributeUsage(AttributeTargets.Property | AttributeTargets.Method, AllowMultiple = false, Inherited = true)]
-  [Obsolete("This is legacy because of the WRONG SPELLING - please use the 'ReferrerAttribute' (with 'rr')")]
+  [Obsolete("This is legacy because of the WRONG SPELLING - please use the 'ReferrerAttribute' (with 'rr')",error:true)]
   public class RefererAttribute : Attribute {
 
     /// <summary>
@@ -25,7 +25,7 @@ namespace System.ComponentModel.DataAnnotations {
   /// (from 'FUSE-fx.EntityAnnotations')
   /// </summary>
   [AttributeUsage(AttributeTargets.Class | AttributeTargets.Interface, AllowMultiple = true, Inherited = true)]
-  [Obsolete("This is legacy because of the WRONG SPELLING - please use the 'HasReferrerAttribute' (with 'rr')")]
+  [Obsolete("This is legacy because of the WRONG SPELLING - please use the 'HasReferrerAttribute' (with 'rr')", error: true)]
   public class HasRefererAttribute : Attribute {
 
     /// <summary>
