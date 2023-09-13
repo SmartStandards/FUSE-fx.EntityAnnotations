@@ -1,13 +1,13 @@
 {
-  "currentVersion": "3.1.0",
-  "currentVersionWithSuffix": "3.1.0",
+  "currentVersion": "4.0.0",
+  "currentVersionWithSuffix": "4.0.0",
   "releaseType": "official",
-  "previousVersion": "3.0.0",
-  "changeGrade": "minor",
-  "currentMajor": 3,
-  "currentMinor": 1,
+  "previousVersion": "3.1.0",
+  "changeGrade": "major",
+  "currentMajor": 4,
+  "currentMinor": 0,
   "currentPatch": 0,
-  "versionDateInfo": "2023-09-07",
-  "versionTimeInfo": "08:02:45",
-  "versionNotes": "- (new Feature): added new Attribute **'Referrer'** in correct spelling\n"
+  "versionDateInfo": "2023-09-13",
+  "versionTimeInfo": "05:58:46",
+  "versionNotes": "- wrong spelled **'Referer'** Attribute is now unusable (Obsolete w. error=true) (breaking Change)\n"
 }
