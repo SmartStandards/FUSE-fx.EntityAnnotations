@@ -15,6 +15,12 @@ This files contains a version history including all changes relevant for semanti
 
 
 
+## v 4.0.1
+released **2023-10-13**, including:
+ - new revision without significant changes
+
+
+
 ## v 4.0.0
 released **2023-09-13**, including:
  - wrong spelled **'Referer'** Attribute is now unusable (Obsolete w. error=true) (**breaking Change**)

@@ -1,13 +1,13 @@
 {
-  "currentVersion": "4.0.0",
-  "currentVersionWithSuffix": "4.0.0",
+  "currentVersion": "4.0.1",
+  "currentVersionWithSuffix": "4.0.1",
   "releaseType": "official",
-  "previousVersion": "3.1.0",
-  "changeGrade": "major",
+  "previousVersion": "4.0.0",
+  "changeGrade": "patch",
   "currentMajor": 4,
   "currentMinor": 0,
-  "currentPatch": 0,
-  "versionDateInfo": "2023-09-13",
-  "versionTimeInfo": "05:58:46",
-  "versionNotes": "- wrong spelled **'Referer'** Attribute is now unusable (Obsolete w. error=true) (breaking Change)\n"
+  "currentPatch": 1,
+  "versionDateInfo": "2023-10-13",
+  "versionTimeInfo": "12:41:17",
+  "versionNotes": "- new revision without significant changes\n"
 }
