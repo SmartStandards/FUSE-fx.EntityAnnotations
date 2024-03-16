@@ -43,12 +43,14 @@ namespace System.ComponentModel.DataAnnotations {
     /// <param name="localNavigationName">can be just defined here, or in combination with an identically named navigation-property qualified by a PrincipalAttribute </param>
     /// <param name="localFkPropertyGroupName">name of a local defined PropertyGroup which will be used as 'Foreigen-Key'</param>
     /// <param name="navigationNameOnPrincipal">should be defined to qualify each direction of the association (also, if there is no navigation-property)</param>
+    /// <param name="principalTypeName"></param>
     /// <param name="keyPropertyGroupNameOnPrincipal">name of a PropertyGroup defined on the target entity, which will be used as 'Primary-Key' (if not sepecified, then the PrimaryIdentityAttribute will used to identify the primary PropertyGroup name)</param>
-    public HasPrincipalAttribute(string localNavigationName, string localFkPropertyGroupName, string navigationNameOnPrincipal, string keyPropertyGroupNameOnPrincipal = null) {
+    public HasPrincipalAttribute(string localNavigationName, string localFkPropertyGroupName, string navigationNameOnPrincipal, string keyPropertyGroupNameOnPrincipal = null, string principalTypeName = null) {
       this.LocalNavigationName = localNavigationName;
       this.LocalFkPropertyGroupName = localFkPropertyGroupName;
       this.NavigationNameOnPrincipal = navigationNameOnPrincipal;
       this.KeyPropertyGroupNameOnPrincipal = keyPropertyGroupNameOnPrincipal;
+      this.PrincipalTypeName = principalTypeName;
     }
 
     /// <summary>
@@ -80,6 +82,11 @@ namespace System.ComponentModel.DataAnnotations {
     /// should be defined to qualify each direction of the association (also, if there is no navigation-property)
     /// </summary>
     public string NavigationNameOnPrincipal { get; }
+
+    /// <summary>
+    /// name of the type of the principal
+    /// </summary>
+    public string PrincipalTypeName { get; }
 
     /// <summary>
     /// name of a PropertyGroup defined on the target entity, which will be used as 'Primary-Key' (if not sepecified, then the PrimaryIdentityAttribute will used to identify the primary PropertyGroup name)

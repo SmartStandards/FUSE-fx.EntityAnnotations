@@ -45,11 +45,13 @@ namespace System.ComponentModel.DataAnnotations {
     /// <param name="fkPropertyGroupNameOnDependent">name of a PropertyGroup defined on the Dependent entity which will be used as 'Foreigen-Key'</param>
     /// <param name="navigationNameOnDependent">should be defined to qualify each direction of the association (also, if there is no navigation-property)</param>
     /// <param name="localKeyPropertyGroupName">name of a PropertyGroup defined on the local entity, which will be used as 'Primary-Key' (if not sepecified, then the PrimaryIdentityAttribute will used to identify the primary PropertyGroup name)</param>
-    public HasDependentAttribute(string localNavigationName, string fkPropertyGroupNameOnDependent, string navigationNameOnDependent, string localKeyPropertyGroupName = null) {
+    /// <param name="dependentTypeName"></param>
+    public HasDependentAttribute(string localNavigationName, string fkPropertyGroupNameOnDependent, string navigationNameOnDependent, string localKeyPropertyGroupName = null, string dependentTypeName = null) {
       this.LocalNavigationName = localNavigationName;
       this.FkPropertyGroupNameOnDependent = fkPropertyGroupNameOnDependent;
       this.NavigationNameOnDependent = navigationNameOnDependent;
       this.LocalKeyPropertyGroupName = localKeyPropertyGroupName;
+      this.DependentTypeName = dependentTypeName;
     }
 
     /// <summary>
@@ -71,6 +73,11 @@ namespace System.ComponentModel.DataAnnotations {
     /// can be just defined here, or in combination with an identically named navigation-property qualified by a DependentAttribute
     /// </summary>
     public string LocalNavigationName { get; }
+
+    /// <summary>
+    /// name of the type of the dependent
+    /// </summary>
+    public string DependentTypeName { get; }
 
     /// <summary>
     /// name of a PropertyGroup defined on the Dependent entity which will be used as 'Foreigen-Key'
