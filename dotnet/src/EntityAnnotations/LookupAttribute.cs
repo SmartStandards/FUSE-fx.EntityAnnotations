@@ -44,11 +44,16 @@ namespace System.ComponentModel.DataAnnotations {
     /// <param name="localFkPropertyGroupName">name of a local defined PropertyGroup which will be used as 'Foreigen-Key'</param>
     /// <param name="navigationNameOnLookup">should be defined to qualify each direction of the association (also, if there is no navigation-property)</param>
     /// <param name="keyPropertyGroupNameOnLookup">name of a PropertyGroup defined on the target entity, which will be used as 'Primary-Key' (if not sepecified, then the PrimaryIdentityAttribute will used to identify the primary PropertyGroup name)</param>
-    public HasLookupAttribute(string localNavigationName, string localFkPropertyGroupName, string navigationNameOnLookup, string keyPropertyGroupNameOnLookup = null) {
+    /// <param name="lookupTypeName">typename of Lookup Entity</param>
+    public HasLookupAttribute(
+      string localNavigationName, string localFkPropertyGroupName, string navigationNameOnLookup, 
+      string keyPropertyGroupNameOnLookup = null, string lookupTypeName = null
+    ) {
       this.LocalNavigationName = localNavigationName;
       this.LocalFkPropertyGroupName = localFkPropertyGroupName;
       this.NavigationNameOnLookup = navigationNameOnLookup;
       this.KeyPropertyGroupNameOnLookup = keyPropertyGroupNameOnLookup;
+      this.LookupTypeName = lookupTypeName;
     }
 
     /// <summary>
@@ -80,6 +85,11 @@ namespace System.ComponentModel.DataAnnotations {
     /// should be defined to qualify each direction of the association (also, if there is no navigation-property)
     /// </summary>
     public string NavigationNameOnLookup { get; }
+
+    /// <summary>
+    /// name of the type of the Lookup
+    /// </summary>
+    public string LookupTypeName { get; }
 
     /// <summary>
     /// name of a PropertyGroup defined on the target entity, which will be used as 'Primary-Key' (if not sepecified, then the PrimaryIdentityAttribute will used to identify the primary PropertyGroup name)
