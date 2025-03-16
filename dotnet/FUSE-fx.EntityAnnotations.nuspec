@@ -17,9 +17,13 @@
     <dependencies>
       <group targetFramework=".NETFramework4.6">   
       </group>
+      <group targetFramework=".NETFramework4.8">
+      </group>
       <group targetFramework="net5.0">    
       </group>
       <group targetFramework="net6.0">
+      </group>
+      <group targetFramework="net8.0">
       </group>
     </dependencies>
   </metadata>
@@ -30,6 +34,10 @@
     <file src="dist\bin-net46\FUSE-fx.EntityAnnotations.dll" target="lib/net46" />
     <file src="dist\bin-net46\FUSE-fx.EntityAnnotations.xml" target="lib/net46" />
     <file src="dist\bin-net46\FUSE-fx.EntityAnnotations.pdb" target="lib/net46" />
+    <!-- .NET 4.8 -->
+    <file src="dist\bin-net48\FUSE-fx.EntityAnnotations.dll" target="lib/net48" />
+    <file src="dist\bin-net48\FUSE-fx.EntityAnnotations.xml" target="lib/net48" />
+    <file src="dist\bin-net48\FUSE-fx.EntityAnnotations.pdb" target="lib/net48" />
     <!-- .NET 5.0 -->
     <file src="dist\bin-net5.0\FUSE-fx.EntityAnnotations.dll" target="lib/net5.0" />
     <file src="dist\bin-net5.0\FUSE-fx.EntityAnnotations.xml" target="lib/net5.0" />
@@ -38,5 +46,9 @@
     <file src="dist\bin-net6.0\FUSE-fx.EntityAnnotations.dll" target="lib/net6.0" />
     <file src="dist\bin-net6.0\FUSE-fx.EntityAnnotations.xml" target="lib/net6.0" />
     <file src="dist\bin-net6.0\FUSE-fx.EntityAnnotations.pdb" target="lib/net6.0" />
+    <!-- .NET 8.0 -->
+    <file src="dist\bin-net8.0\FUSE-fx.EntityAnnotations.dll" target="lib/net8.0" />
+    <file src="dist\bin-net8.0\FUSE-fx.EntityAnnotations.xml" target="lib/net8.0" />
+    <file src="dist\bin-net8.0\FUSE-fx.EntityAnnotations.pdb" target="lib/net8.0" />
   </files>
 </package>

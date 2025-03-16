@@ -29,6 +29,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EntityAnnotations.Tests.net
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityAnnotations.Tests.net461", "test\EntityAnnotations.Tests.net461\EntityAnnotations.Tests.net461.csproj", "{D0B8734C-340F-4B2A-80EE-C00AFDD59E13}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityAnnotations.net48", "src\EntityAnnotations.net48\EntityAnnotations.net48.csproj", "{0E69BD90-A7FA-4E55-A4DF-5276FD6F0069}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EntityAnnotations.net8.0", "src\EntityAnnotations.net8.0\EntityAnnotations.net8.0.csproj", "{092D7A72-B028-4564-93C5-62D0C98C3C93}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -55,6 +59,14 @@ Global
 		{D0B8734C-340F-4B2A-80EE-C00AFDD59E13}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D0B8734C-340F-4B2A-80EE-C00AFDD59E13}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D0B8734C-340F-4B2A-80EE-C00AFDD59E13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E69BD90-A7FA-4E55-A4DF-5276FD6F0069}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E69BD90-A7FA-4E55-A4DF-5276FD6F0069}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E69BD90-A7FA-4E55-A4DF-5276FD6F0069}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E69BD90-A7FA-4E55-A4DF-5276FD6F0069}.Release|Any CPU.Build.0 = Release|Any CPU
+		{092D7A72-B028-4564-93C5-62D0C98C3C93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{092D7A72-B028-4564-93C5-62D0C98C3C93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{092D7A72-B028-4564-93C5-62D0C98C3C93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{092D7A72-B028-4564-93C5-62D0C98C3C93}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -67,11 +79,15 @@ Global
 		{5E17C8E8-0BC8-4F7C-A022-C8104A415628} = {C5272353-539E-4138-93FD-9DF437F6DA47}
 		{A6925214-F00D-4F5B-8C3A-60343769A83E} = {C5272353-539E-4138-93FD-9DF437F6DA47}
 		{D0B8734C-340F-4B2A-80EE-C00AFDD59E13} = {C5272353-539E-4138-93FD-9DF437F6DA47}
+		{0E69BD90-A7FA-4E55-A4DF-5276FD6F0069} = {EFB5135D-039A-4D92-8FDD-9EA5D070F991}
+		{092D7A72-B028-4564-93C5-62D0C98C3C93} = {EFB5135D-039A-4D92-8FDD-9EA5D070F991}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D2F37C1D-32F0-4BF2-AAEB-46B9D8C07D23}
 	EndGlobalSection
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		src\EntityAnnotations\EntityAnnotations.projitems*{092d7a72-b028-4564-93c5-62d0c98c3c93}*SharedItemsImports = 5
+		src\EntityAnnotations\EntityAnnotations.projitems*{0e69bd90-a7fa-4e55-a4df-5276fd6f0069}*SharedItemsImports = 4
 		test\EntityAnnotations.Tests\EntityAnnotations.Tests.projitems*{5e17c8e8-0bc8-4f7c-a022-c8104a415628}*SharedItemsImports = 13
 		src\EntityAnnotations\EntityAnnotations.projitems*{7b5baea8-7e79-4a30-b6c1-4da4831af970}*SharedItemsImports = 5
 		src\EntityAnnotations\EntityAnnotations.projitems*{88f15535-fad8-4372-80dc-fd0d8c81ab4c}*SharedItemsImports = 5
