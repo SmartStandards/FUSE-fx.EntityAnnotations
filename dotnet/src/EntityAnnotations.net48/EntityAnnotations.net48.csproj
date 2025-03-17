@@ -28,11 +28,11 @@
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
-    <OutputPath>..\..\dist\bin-net46\</OutputPath>
-    <DefineConstants>TRACE;NET46</DefineConstants>
+    <OutputPath>..\..\dist\bin-net48\</OutputPath>
+    <DefineConstants>TRACE;NET48</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <DocumentationFile>..\..\dist\bin-net46\FUSE-fx.EntityAnnotations.xml</DocumentationFile>
+    <DocumentationFile>..\..\dist\bin-net48\FUSE-fx.EntityAnnotations.xml</DocumentationFile>
     <NoWarn>1591</NoWarn>
   </PropertyGroup>
   <ItemGroup>
