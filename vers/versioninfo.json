@@ -1,13 +1,13 @@
 {
-  "currentVersion": "4.0.3",
-  "currentVersionWithSuffix": "4.0.3",
+  "currentVersion": "4.1.0",
+  "currentVersionWithSuffix": "4.1.0",
   "releaseType": "official",
-  "previousVersion": "4.0.2",
-  "changeGrade": "patch",
+  "previousVersion": "4.0.3",
+  "changeGrade": "minor",
   "currentMajor": 4,
-  "currentMinor": 0,
-  "currentPatch": 3,
-  "versionDateInfo": "2024-04-11",
-  "versionTimeInfo": "16:39:45",
-  "versionNotes": "- new revision without significant changes\n"
+  "currentMinor": 1,
+  "currentPatch": 0,
+  "versionDateInfo": "2025-03-17",
+  "versionTimeInfo": "18:15:11",
+  "versionNotes": "- new feature: added targets for .net48 and .net8\n"
 }
