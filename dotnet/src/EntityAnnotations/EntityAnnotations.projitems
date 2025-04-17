@@ -14,6 +14,7 @@
     <Compile Include="$(MSBuildThisFileDirectory)FixedAfterCreationAttribute.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)LookupAttribute.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ModelRelationExtensions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)PluralNameAttribute.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)PrimaryIdentityAttribute.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)PrincipalAttribute.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)PropertyGroupAttribute.cs" />
