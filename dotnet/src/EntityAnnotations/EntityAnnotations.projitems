@@ -10,6 +10,11 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="$(MSBuildThisFileDirectory)ContentAttribute.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ContentConstraints\RequireDateContentAttribute.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ContentConstraints\RequireBooleanContentAttribute.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ContentConstraints\RequireNumericContentAttribute.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ContentConstraints\RequireStringContentAttribute.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ContentConstraints\RequireSerializedContentAttribute.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)DependentAttribute.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)FixedAfterCreationAttribute.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)LookupAttribute.cs" />

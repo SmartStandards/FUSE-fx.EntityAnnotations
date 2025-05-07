@@ -8,6 +8,7 @@ namespace System.ComponentModel.DataAnnotations {
   ///  (from 'FUSE-fx.EntityAnnotations')
   /// </summary>
   [AttributeUsage(AttributeTargets.Property, AllowMultiple = false, Inherited = true)]
+  [Obsolete("PLEASE USE THE Reqire*ContentAttributes instead (see sub.namespace 'ContentConstraints')")]
   public class ContentAttribute : Attribute {
 
     /// <summary>
