@@ -22,4 +22,7 @@
     <Compile Include="$(MSBuildThisFileDirectory)RefererAttribute.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)SystemInternalAttribute.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)IdentityAttribute.cs" />
+  </ItemGroup>
 </Project>

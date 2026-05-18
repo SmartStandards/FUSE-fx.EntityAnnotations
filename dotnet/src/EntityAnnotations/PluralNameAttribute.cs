@@ -1,7 +1,7 @@
 namespace System.ComponentModel.DataAnnotations {
 
   /// <summary>
-  /// Defines, that this entity has an OUTBOUND dependency to another entity which represents the PRINCIPAL.
+  /// Defines the correct spelling of the plural name of the entity class
   /// (from 'FUSE-fx.EntityAnnotations')
   /// </summary>
   [AttributeUsage(AttributeTargets.Class | AttributeTargets.Interface)]
