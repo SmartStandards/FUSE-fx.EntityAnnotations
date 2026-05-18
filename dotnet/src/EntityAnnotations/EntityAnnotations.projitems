@@ -9,6 +9,7 @@
     <Import_RootNamespace>System</Import_RootNamespace>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)AutoValueAttribute.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ContentAttribute.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)DependentAttribute.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)FixedAfterCreationAttribute.cs" />
@@ -21,8 +22,5 @@
     <Compile Include="$(MSBuildThisFileDirectory)ReferrerAttribute.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)RefererAttribute.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)SystemInternalAttribute.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="$(MSBuildThisFileDirectory)IdentityAttribute.cs" />
   </ItemGroup>
 </Project>
