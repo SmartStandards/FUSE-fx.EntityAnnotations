@@ -4,8 +4,8 @@
     <TargetFramework>net10.0</TargetFramework>
     <RootNamespace>Security</RootNamespace>
     <IsPackable>false</IsPackable>
-    <AssemblyVersion>4.2.2</AssemblyVersion>
-    <Version>4.2.2</Version>
+    <AssemblyVersion>4.3.0</AssemblyVersion>
+    <Version>4.3.0</Version>
     <AssemblyName>FUSE-fx.EntityAnnotations.Tests</AssemblyName>
     <PackageId>Tests</PackageId>
     <Product>Tests</Product>
